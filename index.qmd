@@ -1,7 +1,7 @@
 ---
-title: "Writing a great story for data science projects - Summer 2025 "
+title: "Fall 2025 - APJ Capstone "
 subtitle: "This is a Report Template Quarto"
-author: "Student Name (Advisor: Dr. Cohen)"
+author: "Abigail Penza Jackson (Advisor: Dr. Cohen)"
 date: '`r Sys.Date()`'
 format:
   html:
@@ -155,3 +155,19 @@ ggplot1 = murders %>% ggplot(mapping = aes(x=population/10^6, y=total))
 -   Discuss the implications of your results.
 
 ## References
+
+1.	https://journals.sagepub.com/doi/full/10.1177/15501329221106935 
+
+Citation: 
+Zhang P, Jia Y, Shang Y. Research and application of XGBoost in imbalanced data. International Journal of Distributed Sensor Networks. 2022;18(6). doi:10.1177/15501329221106935
+
+Summary: This article discusses the limitations of XGBoost when using imbalanced datasets. While the XGBoost is still the primary choice to analyze the data, it is nessassry to automate hyperparameter tuning. In this example that is done with SVM and Bayesian optimization. The sets were evaluated by the G-mean and AUC metrics. The proposed method (mixed sampling + Bayesian-optimized XGBoost) outperformed the traditional usages of XGBoost alone. Public based datasets were used in this example, which is beneficial to our current project. 
+
+
+2.	https://www.sciencedirect.com/science/article/pii/S2666827021000773
+
+Citation: 
+Xin Yu Liew, Nazia Hameed, Jeremie Clos, An investigation of XGBoost-based algorithm for breast cancer classification, Machine Learning with Applications, Volume 6, 2021, 100154, ISSN 2666-8270, https://doi.org/10.1016/j.mlwa.2021.100154. 
+
+Summary: The study conducted research on an enhanced diagnoses tool for breast cancer in women. This was done by “combining Deep Learning and eXtreme Gradient Boosting (XGBoost) to improve histopathological classification for breast cancer diagnosis”. At the time this study was new to machine learning methods by using histology images and not mammograms. The goal, which was accomplished, was to better classify which images showed active cancer and to categorize them into the specific cancer groups. Since the study did accomplish this, further research is being conducted to improve the speed and the accuracy of this methodology. While most of the work and projects I have been apart of in this program, have been datasets, I am very interested in the machine learning of photos and how complex this must be. 
+
